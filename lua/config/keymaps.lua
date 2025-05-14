@@ -1,7 +1,8 @@
 vim.keymap.set('n', '<leader>w', ':w!<cr>')
 
+-- hello
+
 vim.keymap.set('i', 'jj', '<ESC>')
-vim.keymap.set('i', '<C-c>', '<ESC>')
 
 vim.keymap.set({ 'n', 'v' }, ';', ':')
 vim.keymap.set('n', 'B', '^')
@@ -31,7 +32,7 @@ vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decreas
 vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
 
 -- Oil
--- vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Start Oil Plugin" })
+vim.keymap.set("n", "-", "<cmd>Oil<cr>", { desc = "Start Oil Plugin" })
 
 vim.keymap.set(
   'n',
