@@ -5,7 +5,7 @@ return {
     priority = 1000,
     config = function()
       require("codescope").setup({
-        transparent = false, -- Set to true for transparency
+        transparent = true, -- Set to true for transparency
       })
       vim.cmd.colorscheme("codescope")
     end,
